@@ -1,60 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <meta name="description" content="WDD 231 - Web Fronted Development - Marcos Ferreyra">
-    <meta name="author" content="Marcos Ferreyra">     
+    <meta name="author" content="Marcos Ferreyra">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/index.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Stack+Sans+Text:wght@700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="" alt="">
+        <img src="images/house.svg" alt="site logo" width="512" height="512">
         <span>Marcos Ferreyra</span>
-        <nav></nav>
+        <button id="ham-btn" class="hamburger"></button>
     </header>
-
+    <nav id="nav-bar" class="navegation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
     <main>
         <h1>Home</h1>
         <section class="section1">
             <h2>About Me</h2>
             <div class="insidesection">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae reiciendis 
-                    maxime dolorem suscipit sed magnam rerum. Commodi quisquam tenetur eum, 
-                    numquam, natus distinctio dolores ipsa officia, optio impedit atque 
-                    asperiores Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Adipisci sapiente, dolor voluptas doloremque eveniet architecto vitae 
-                    tempora maiores ea repellat qui, quisquam iste laborum modi, quia temporibus 
-                    illum? Odio, ullam..</p>
+                <p>My name is Marcos Daniel Ferreyra I'm from Buenos Aires Argentina, I'm now studying web development and programming and
+                it's been really interesting but it's a new field to me so I'm kinda slow. I love watching movies and series, I also
+                enjoy reading fantasy books. I like to play basketball and play the drums and I'm a big fan of video games. My name is
+                Marcos Daniel Ferreyra I'm from Buenos Aires Argentina, I'm now studying web development and programming and it's been
+                really interesting but it's a new field to me so I'm kinda slow. I love watching movies and series, I also enjoy reading
+                fantasy books. I like to play basketball and play the drums and I'm a big fan of video games.</p>
             </div>
         </section>
 
         <section class="section2">
             <h2>Student Foto</h2>
             <div class="insidesection">
-                <img src="images/profile.webp" alt="foto of Marcos Ferreyra">
+                <img src="images/imagen-marcos.jpg" alt="foto of Marcos Ferreyra">
             </div>
         </section>
 
         <section class="section3">
             <h2>Web Certificate Courses</h2>
-            <div class="insidesection">
-
+            <div class="buttons">
+                <button id="all">All </button>
+                <button id="wdd">WDD </button>
+                <button id="cse">CSE </button>
             </div>
+            
+            <section id="courses"></section>
+            
+            <p class="credits">
+                Total Credits: <span id="totalCredits">0</span>
+            </p>
         </section>
 
     </main>
 
     <footer>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <p>©<span id="currentyear"></span> | Marcos Ferreyra | Buenos Aires, Argentina</p>
-        <p class="modified">last modified : <span id="lastModified"></span></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook.svg" alt="facebook logo" width="16" height="16"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="linkedin logo" width="16" height="16"></a>
+            <a href="https://github.com" target="_blank"><img src="images/github.svg" alt="github logo" width="16" height="16"></a>
+        </div>
+        <div class="rights">
+            <p>©<span id="currentyear"></span> | Marcos Ferreyra | Buenos Aires, Argentina</p>
+            <p class="modified">last modified : <span id="lastModified"></span></p>
+        </div>
     </footer>
 </body>
+
 </html>

@@ -1,0 +1,102 @@
+@media screen and (min-width: 500px) {
+
+    :root {
+        --background-color: #C2B8A3;
+        --secondary-background: #E8E6E1;
+        --principal-text: #2E2E2E;
+        --buttons: #a18d74;
+    }
+
+    body {
+        padding: 15px;
+    }
+
+    header {
+        max-width: 100%;
+        grid-template-columns: 35px auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navegation {
+        display: block;
+        padding-top: 5px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .navegation ul {
+        display: flex;
+        max-width: 100%;
+        font-size: 1.7rem;
+    }
+
+    .navegation a {
+        color: black;
+        border: none;
+    }
+
+    .navegation a:hover {
+        background-color: rgb(49, 49, 49);
+        color: white;
+    }
+
+    .section3 h2 {
+        border: none;
+    }
+
+    /*main*/
+    main {
+        max-width: 100%;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-gap: 20px;
+    }
+
+    main h1 {
+        grid-column: 1 / 3;
+    }
+
+    section {
+        max-height: 100%;
+    }
+
+    .section1 {
+        grid-column: 1 / 2;
+    }
+
+    .section2 {
+        grid-column: 2 / 3;
+    }
+
+    .section3 {
+        grid-column: 1 / 3;
+
+    }
+
+    .buttons button {
+        min-width: 150px;
+        
+        height: 50px;
+    }
+
+    footer {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .social a img {
+        width: 40px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .rights {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 1rem;
+    }
+}
