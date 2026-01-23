@@ -1,0 +1,86 @@
+
+header,
+.navegation,
+main,
+footer {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+
+/******************** HEADER ********************/
+
+header {
+    max-width: 320px;
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    column-gap: 8px;
+    border-bottom: solid 1px #ddd;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    font-size: 1.3rem;
+}
+
+.hamburger {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 1.6rem;
+}
+
+.hamburger.show::before {
+    content: "\00d7";
+}
+
+/******************** NAVEGATION ********************/
+.navegation {
+    display: none;
+}
+
+.navegation.show {
+    display: block;
+    max-width: 320px;
+}
+
+.navegation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navegation a {
+    display: block;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-bottom: solid 0.1px rgb(0, 0, 0);
+}
+
+.navegation a:hover {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+/******************** FOOTER ********************/
+
+footer {
+    max-width: 320px;
+    text-align: center;
+}
+
+.social a img {
+    width: 40px;
+    height: auto;
+}
