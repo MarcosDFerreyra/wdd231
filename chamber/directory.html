@@ -7,29 +7,20 @@
     <title>Florencio Varela Chamber of Comerce | Directory | WDD 213</title>
     <meta name="description" content="WDD 231 - Web Fronted Development - Marcos Ferreyra">
     <meta name="author" content="Marcos Ferreyra">
+    <meta propety="og:title" content="Florencio Varela Chamber of Comerce">
+    <meta propety="og:description" content="Business directory of member companies and organizations of the Florencio Varela Chamber of Commerce.">
+    <meta propety="og:image" content="https://raw.githubusercontent.com/MarcosDFerreyra/wdd231/49d316494e2f6ef663f14c3abc83a0f4cad01acc/chamber/images/image.png">
+    <meta property="og:url" content="https://marcosdferreyra.github.io/wdd231/chamber/directory.html">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base-directory.css">
     <link rel="stylesheet" href="styles/large-directory.css">
     <script src="scripts/directory.js" defer></script>
-
+    <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Stack+Sans+Text:wght@700&display=swap"
         rel="stylesheet">
-
-    <link rel="icon" href="favicon.ico">
-
-    <meta propety="og:title" content="Florencio Varela Chamber of Comerce">
-    <meta propety="og:description" content="Business directory of member companies and organizations of the Florencio Varela Chamber of Commerce.">
-    <meta propety="og:image" content="">
-    <meta propety="og:url" content="">
-
-
-
-
-
-
 </head>
 
 <body>
@@ -40,12 +31,19 @@
     </header>
     <nav id="nav-bar" class="navegation">
         <ul>
-            <li class="current"><a href="#">Home</a></li>
-            <li><a href="#">Chamber</a></li>
-            <li><a href="#">Final</a></li>
+            <li class=""><a href="#">Home</a></li>
+            <li class="current"><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Discover</a></li>
         </ul>
-    </nav>
+    </nav> 
+
     <main>
+        <div class="grid-list">
+            <button id="grid" class="grid-card">Grid</button>
+            <button id="list" class="list-card">List</button>
+        </div>
+        <section id="members" class="grid-card"></section>
     </main>
 
     <footer>

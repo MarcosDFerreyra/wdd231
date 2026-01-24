@@ -1,9 +1,14 @@
-@media screen and (min-width: 500px) {
+@media screen and (mi-width: 500px) {
     /****************** FOOTER *****************/
 
     header {
         max-width: 100%;
-        grid-template-columns: 35px auto;
+        grid-template-columns: 44px auto auto;
+        align-items: end;
+    }
+
+    header span {
+        font-size: 1.7rem;
     }
 
     .hamburger {
@@ -12,15 +17,13 @@
 
     .navegation {
         display: block;
-        padding-top: 5px;
-        margin: 0;
-        width: 100%;
+        max-width: 100%;
     }
 
     .navegation ul {
         display: flex;
         max-width: 100%;
-        font-size: 1.7rem;
+        font-size: 1.2rem;
     }
 
     .navegation a {
