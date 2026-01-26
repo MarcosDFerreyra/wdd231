@@ -43,9 +43,9 @@ function displayMembers(companies) {
         card.innerHTML = `
       <img src= "images/${company.image_file}">
       <h2>${company.company_name}</h2>
-      <p>${company.business_type}</p>
       <p>${company.membership_level}</p>
-      <p>${company.company_phone}</p>
+      <p>${company.business_type}</p>
+      <p class="number">${company.company_phone}</p>
       <p>${company.company_address}</p>
       <a href="${company.company_url}" target="_blank">Website</a>
     `;

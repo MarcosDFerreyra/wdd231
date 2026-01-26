@@ -72,24 +72,65 @@ header span {
 }
 
 /******************** MAIN ********************/
-
-.grid-card {
+.grid-list {
     max-width: 320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-bottom: 15px;
+}
+
+.grid-list button {
+    width: 100px;
+    height: auto;
+    font-size: 1.5rem;
+    border-radius: 0.7rem;
+}
+
+.members.grid {
+    max-width: 320px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 10px;
+    gap: 10px;
+}
+
+.members.grid div {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 0.8rem;
+    padding: 10px;
     text-align: center;
 }
 
-.grid-card div{
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.40);
-    border-radius: 0.8rem;
-    padding: 10px;
+.members.grid img {
+    max-width: 250px;
+    height: auto;
 }
 
-.grid-card img{
-    max-width: 200px;
-    height: auto;
+.members.list {
+    max-width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.members.list div {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+    font-size: 0.8rem;
+}
+
+
+.members.list img,
+p {
+    display: none;
+}
+
+.members.list .number {
+    display: block;
 }
 
 
@@ -98,6 +139,10 @@ header span {
 footer {
     max-width: 320px;
     text-align: center;
+}
+
+footer p {
+    display: block;
 }
 
 .social a img {

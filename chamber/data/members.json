@@ -1,11 +1,20 @@
 {
     "companies": [
         {
+            "company_name": "La Estación Café",
+            "company_address": "Av. Eva Perón 1560, Florencio Varela, Buenos Aires, Argentina",
+            "company_phone": "+54 11 4212-6633",
+            "company_url": "https://www.laestacioncafe.com.ar",
+            "image_file": "estacionCafe.jpeg",
+            "membership_level": "MEMBER",
+            "business_type": "Restaurant & Café"
+        },
+        {
             "company_name": "Varela Tech Solutions",
             "company_address": "Av. San Martín 1250, Florencio Varela, Buenos Aires, Argentina",
             "company_phone": "+54 11 4210-3345",
             "company_url": "https://www.varelatech.com.ar",
-            "image_file": "image.png",
+            "image_file": "varelaTech.jpeg",
             "membership_level": "MEMBER" ,
             "business_type": "Technology & Digital Services"
         },
@@ -14,7 +23,7 @@
             "company_address": "Calle Mitre 845, Florencio Varela, Buenos Aires, Argentina",
             "company_phone": "+54 11 4275-9982",
             "company_url": "https://www.greenvarela.com.ar",
-            "image_file": "green-varela.png",
+            "image_file": "greenVarela.jpeg",
             "membership_level": "SILVER",
             "business_type": "Organic Food & Grocery"
         },
@@ -23,7 +32,7 @@
             "company_address": "Av. Calchaquí 2140, Florencio Varela, Buenos Aires, Argentina",
             "company_phone": "+54 11 3987-4421",
             "company_url": "https://www.southprintstudio.com",
-            "image_file": "south-print.png",
+            "image_file": "southPrint.jpeg",
             "membership_level": "MEMBER",
             "business_type": "Graphic Design & Printing"
         },
@@ -32,25 +41,16 @@
             "company_address": "Calle España 430, Florencio Varela, Buenos Aires, Argentina",
             "company_phone": "+54 11 4229-7710",
             "company_url": "https://www.varelafitness.com.ar",
-            "image_file": "varela-fitness.png",
+            "image_file": "varelaFitness.jpeg",
             "membership_level": "SILVER",
             "business_type": "Health & Fitness"
-        },
-        {
-            "company_name": "La Estación Café",
-            "company_address": "Av. Eva Perón 1560, Florencio Varela, Buenos Aires, Argentina",
-            "company_phone": "+54 11 4212-6633",
-            "company_url": "https://www.laestacioncafe.com.ar",
-            "image_file": "la-estacion-cafe.png",
-            "membership_level": "MEMBER",
-            "business_type": "Restaurant & Café"
         },
         {
             "company_name": "Varela Legal Advisors",
             "company_address": "Calle Sallarés 980, Florencio Varela, Buenos Aires, Argentina",
             "company_phone": "+54 11 4210-5504",
             "company_url": "https://www.varelalegal.com",
-            "image_file": "varela-legal.png",
+            "image_file": "varelaLegal.jpeg",
             "membership_level": "GOLD",
             "business_type": "Legal Services"
         },
@@ -59,7 +59,7 @@
             "company_address": "Av. Hudson 2100, Florencio Varela, Buenos Aires, Argentina",
             "company_phone": "+54 11 4098-8821",
             "company_url": "https://www.urbanbuild.com.ar",
-            "image_file": "urban-build.png",
+            "image_file": "urbanBuild.jpeg",
             "membership_level": "GOLD",
             "business_type": "Construction & Real Estate"
         }
