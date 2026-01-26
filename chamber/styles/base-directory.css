@@ -87,6 +87,11 @@ header span {
     padding: 10px;
 }
 
+.grid-card img{
+    max-width: 200px;
+    height: auto;
+}
+
 
 /******************** FOOTER ********************/
 
