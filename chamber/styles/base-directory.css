@@ -72,6 +72,8 @@ header span {
 }
 
 /******************** MAIN ********************/
+
+/******************** GRID BUTTON*/
 .grid-list {
     max-width: 320px;
     margin: 0 auto;
@@ -108,6 +110,8 @@ header span {
     height: auto;
 }
 
+/******************** LIST BUTTON*/
+
 .members.list {
     max-width: 320px;
     margin: 0 auto;
@@ -117,10 +121,11 @@ header span {
 
 .members.list div {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 0.9fr 0.5fr;
     margin: 0;
     padding: 0.25rem;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+    border: solid 1px black;
 }
 
 
@@ -131,8 +136,11 @@ p {
 
 .members.list .number {
     display: block;
+    margin-top: 15px;
 }
-
+.members.list a {
+    margin: 15px;
+}
 
 /******************** FOOTER ********************/
 
