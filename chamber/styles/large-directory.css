@@ -1,5 +1,5 @@
 @media screen and (min-width: 500px) {
-    /****************** FOOTER *****************/
+    /****************** HEADER *****************/
 
     header {
         max-width: 100%;
@@ -23,7 +23,7 @@
     .navegation ul {
         display: flex;
         max-width: 100%;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .navegation a {
@@ -41,22 +41,82 @@
     }
 
     /****************** FOOTER *****************/
+
+    .grid-list {
+        padding-bottom: 30px;
+    }
+
+    .grid-list button {
+        width: 150px;
+        padding: 5px;
+    }
+
+    /******************** GRID BUTTON*/
+
+    .members.grid div {
+        max-width: 300px;
+        min-height: 400px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .members.grid {
+        max-width: 100%;
+        height: auto;
+        grid-template-columns: repeat(auto-fit, minmax(335px, 0.5fr));
+        gap: 20px;
+    }
+
+    /******************** LIST BUTTON*/
+
+    .members.list {
+        max-width: 100%;
+
+    }
+
+    .members.list div {
+        width: 70%;
+        min-width: 40%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 2fr 0.9fr 0.5fr;
+        padding: 0.25rem;
+        font-size: 1.2rem;
+        border: solid 1px black;
+
+    }
+
+    .members.list img {
+        display: none;
+    }
+
+    .members.list h2 {
+        margin-left: 10px;
+    }
+
+    .members.list .number {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .members.list a {
+        margin-top: 30px;
+    }
+
+    /****************** FOOTER *****************/
     footer {
         max-width: 100%;
-        text-align: center;
+        display: grid;
+        padding: 10px 100px 10px 100px;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 1.1rem;
     }
 
     .social a img {
-        width: 40px;
+        width: 60px;
         height: auto;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
-    .rights {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 5px;
-        font-size: 1rem;
-    }
+    
 }

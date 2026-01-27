@@ -1,7 +1,6 @@
 header,
 .navegation,
-main,
-footer {
+main {
     margin: 0 auto;
     padding: 15px;
 }
@@ -73,7 +72,6 @@ header span {
 
 /******************** MAIN ********************/
 
-/******************** GRID BUTTON*/
 .grid-list {
     max-width: 320px;
     margin: 0 auto;
@@ -90,6 +88,8 @@ header span {
     border-radius: 0.7rem;
 }
 
+/******************** GRID BUTTON*/
+
 .members.grid {
     max-width: 320px;
     margin: 0 auto;
@@ -103,11 +103,16 @@ header span {
     border-radius: 0.8rem;
     padding: 10px;
     text-align: center;
+
 }
 
 .members.grid img {
     max-width: 250px;
     height: auto;
+}
+
+.members.grid p {
+    display: block;
 }
 
 /******************** LIST BUTTON*/
@@ -138,6 +143,7 @@ p {
     display: block;
     margin-top: 15px;
 }
+
 .members.list a {
     margin: 15px;
 }
@@ -146,14 +152,17 @@ p {
 
 footer {
     max-width: 320px;
-    text-align: center;
-}
-
-footer p {
-    display: block;
+    display: grid;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgb(195, 195, 195);
 }
 
 .social a img {
     width: 40px;
     height: auto;
+}
+
+footer p {
+    display: block;
 }
