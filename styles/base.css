@@ -4,8 +4,8 @@
     --principal-text: #2E2E2E;
     --buttons: #a18d74;
     --pricipal-font: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -23,12 +23,13 @@ footer {
 
 /******************** HEADER ********************/
 
-h1, h2{
+h1,
+h2 {
     font-family: var(--pricipal-font);
-} 
+}
 
 header {
-    max-width: 320px;
+    max-width: 500px;
     display: grid;
     grid-template-columns: 24px auto 44px;
     column-gap: 8px;
@@ -68,7 +69,7 @@ header span {
 
 .navegation.show {
     display: block;
-    max-width: 320px;
+    max-width: 500px;
 }
 
 .navegation ul {
@@ -98,13 +99,16 @@ h1 {
 }
 
 main {
-     
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
 }
 
 h2 {
     text-align: center;
     color: var(--principal-text);
     padding: 0;
+    padding-top: 5px;
     margin: 0;
     border-bottom: solid 1px rgb(84, 84, 84);
     font-size: 1.7rem;
@@ -154,12 +158,12 @@ section {
     background-color: white;
 }
 
-.buttons {
+.buttons-courses {
     display: flex;
     gap: 13px;
 }
 
-.buttons button{
+.buttons-courses button {
     width: 100px;
     border-radius: 0.6rem;
     cursor: pointer;
@@ -168,11 +172,40 @@ section {
     font-size: 1.2rem;
 }
 
-.buttons button:hover{
+.buttons-courses button:hover {
     background-color: var(--secondary-background);
-
 }
 
+.credits-number {
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.course-card {
+    width: 350px;
+    background-color: var(--secondary-background);
+    text-align: center;
+    font-size: 1.1rem;
+    border: solid 1px black;
+}
+
+.completed {
+    background-color: var(--background-color);
+    
+}
+
+.completed h3::after {
+    content: "✔";
+    padding-left: 5px;
+}
 
 
 
@@ -186,7 +219,7 @@ footer {
     text-align: center;
 }
 
-.social a img{
+.social a img {
     width: 40px;
     height: auto;
 }

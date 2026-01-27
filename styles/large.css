@@ -76,9 +76,35 @@
 
     }
 
-    .buttons button {
-        min-width: 300px;
+
+
+    .buttons-courses {
+        max-width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
+    }
+
+    .buttons-courses button {
+        width: 400px;
         height: 50px;
+    }
+
+
+    .credits-number {
+        font-size: 1.3rem;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
+        gap: 20px;
+    }
+
+    .course-card {
+        width: 400px;
+        font-size: 1.1rem;
+        
     }
 
     footer {
