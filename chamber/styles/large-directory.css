@@ -1,4 +1,4 @@
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 500px) {
     /****************** HEADER *****************/
 
     header {
@@ -40,7 +40,7 @@
         border: none;
     }
 
-    /****************** FOOTER *****************/
+    /****************** MAIN *****************/
 
     .grid-list {
         padding-bottom: 30px;
