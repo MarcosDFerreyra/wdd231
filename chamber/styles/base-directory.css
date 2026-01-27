@@ -1,19 +1,31 @@
+:root {
+    --secondary-background: #ededec;
+    --principal-text: #2E2E2E;
+    --pricipal-font: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 header,
 .navegation,
 main {
     margin: 0 auto;
     padding: 15px;
+    background-color: var(--secondary-background);
 }
 
 
 /******************** HEADER ********************/
-
+.hidden{
+    display: none;
+}
 header {
     max-width: 320px;
     display: grid;
     grid-template-columns: 30px auto 44px;
     column-gap: 8px;
-    border-bottom: solid 1px #ddd;
+    border-bottom: solid 1px #3a3a3a;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -72,6 +84,10 @@ header span {
 
 /******************** MAIN ********************/
 
+h2{
+    font-family: var(--pricipal-font);
+}
+
 .grid-list {
     max-width: 320px;
     margin: 0 auto;
@@ -103,7 +119,7 @@ header span {
     border-radius: 0.8rem;
     padding: 10px;
     text-align: center;
-
+    background-color: white;
 }
 
 .members.grid img {
