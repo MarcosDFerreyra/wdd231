@@ -56,10 +56,12 @@ header span {
 .hamburger::before {
     content: "\2630";
     font-size: 1.6rem;
+    color: black;
 }
 
 .hamburger.show::before {
     content: "\00d7";
+    color: black;
 }
 
 /******************** NAVEGATION ********************/
@@ -94,8 +96,13 @@ header span {
 
 /******************** MAIN ********************/
 
-h1 {
+
+.home-title {
     margin: 0;
+    padding: 0;
+    border: none;
+    text-align: start;
+    
 }
 
 main {
@@ -170,6 +177,7 @@ section {
     border: solid 1px black;
     background-color: var(--background-color);
     font-size: 1.2rem;
+    color: black;
 }
 
 .buttons-courses button:hover {
