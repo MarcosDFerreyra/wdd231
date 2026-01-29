@@ -8,9 +8,8 @@ const currentYear = new Date().getFullYear();
 
 
 navbutton.addEventListener('click', () => {
-    const isOpen = navlinks.classList.toggle('show');
+    navlinks.classList.toggle('show');
     navbutton.classList.toggle('show');
-    navbutton.setAttribute('aria-expanded', isOpen);
 });
 
 gridMember.addEventListener("click", () => {
