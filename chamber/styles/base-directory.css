@@ -16,6 +16,7 @@ main {
 }
 
 
+
 /******************** HEADER ********************/
 .hidden {
     display: none;
@@ -168,14 +169,22 @@ p {
     margin: 15px;
 }
 
+
+.member-card {
+    min-height: 420px;
+}
+
 /******************** FOOTER ********************/
 
 footer {
     max-width: 100%;
+    height: auto;
     display: grid;
     margin: 0 auto;
     padding: 15px;
     background-color: rgb(195, 195, 195);
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 
 .social a img {
