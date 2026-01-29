@@ -178,7 +178,7 @@ p {
 
 footer {
     max-width: 100%;
-    height: auto;
+    max-height: 400px;
     display: grid;
     margin: 0 auto;
     padding: 15px;
