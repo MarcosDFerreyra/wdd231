@@ -189,7 +189,8 @@ footer {
 
 .social a img {
     width: 40px;
-    height: auto;
+    height: 40px;
+    aspect-ratio: 1 / 1;
 }
 
 footer p {
