@@ -117,6 +117,7 @@ h2 {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
+    min-height: 800px;
 }
 
 .members.grid div {
