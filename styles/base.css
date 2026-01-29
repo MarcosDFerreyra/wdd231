@@ -99,10 +99,6 @@ header span {
 
 .home-title {
     margin: 0;
-    padding: 0;
-    border: none;
-    text-align: start;
-    
 }
 
 main {
@@ -168,6 +164,10 @@ section {
 .buttons-courses {
     display: flex;
     gap: 13px;
+}
+
+.hidden{
+    display: none;
 }
 
 .buttons-courses button {
