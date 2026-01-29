@@ -41,7 +41,7 @@ function displayMembers(companies) {
         card.classList.add("member-card");
 
         card.innerHTML = `
-      <img src= "images/${company.image_file}">
+      <img src= "images/${company.image_file}" alt= "logo company" width="300" height="300">
       <h2>${company.company_name}</h2>
       <p>${company.membership_level}</p>
       <p>${company.business_type}</p>
