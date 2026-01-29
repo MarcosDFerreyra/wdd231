@@ -13,7 +13,6 @@ body {
 }
 
 header,
-.navegation,
 main,
 footer {
     margin: 0 auto;
@@ -83,7 +82,7 @@ header span {
 
 .navegation a {
     display: block;
-    padding: 8px 10px;
+    padding: 8px 14px;
     color: var(--principal-text);
     text-decoration: none;
     border-bottom: solid 0.1px rgb(0, 0, 0);
