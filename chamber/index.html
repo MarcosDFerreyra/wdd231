@@ -4,20 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Florencio Varela Chamber of Comerce | Directory | WDD 213</title>
+    <title>Florencio Varela Chamber of Comerce | Home page | WDD 213</title>
     <meta name="description" content="WDD 231 - Web Fronted Development - Marcos Ferreyra">
     <meta name="author" content="Marcos Ferreyra">
     <meta property="og:title" content="Florencio Varela Chamber of Comerce">
-    <meta property="og:description" content="Business directory of member companies and organizations of the Florencio Varela Chamber of Commerce.">
+    <meta property="og:description"
+        content="Business directory of member companies and organizations of the Florencio Varela Chamber of Commerce.">
     <meta property="og:image" content="https://marcosdferreyra.github.io/wdd231/chamber/images/image.png">
     <meta property="og:url" content="https://marcosdferreyra.github.io/wdd231/chamber/directory.html">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base-directory.css">
     <link rel="stylesheet" href="styles/large-directory.css">
     <script src="scripts/principal.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 
     <link rel="icon" href="favicon.ico">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,18 +42,44 @@
             <li><a href="#">Join</a></li>
             <li><a href="#">Discover</a></li>
         </ul>
-    </nav> 
-<main>
-    <div class="grid-list">
-        <button id="grid" class="view-btn">Grid</button>
-        <button id="list" class="view-btn">List</button>
-    </div>
+    </nav>
+    <main class="home-main">
 
-    <section id="members" class="members grid">
-        <h1 class="hidden"></h1>
-    </section>
+        <img class="hero" src="images/hero-image.jpg" alt="image of logo chamber of Comerce" width="300" height="300">
+        <button class="join">Join Us</button>
 
-</main>
+        <section class="section events">
+            <h2>Events</h2>
+            <p></p>
+        </section>
+
+        <section class="section weather">
+
+            <h2>Current Weather</h2>
+
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption id="weather-desc"></figcaption>
+            </figure>
+            <div class="weather-info">
+                <p>Temperature: <span id="current-temp"></span></p>
+                <p>High: <span id="temp-max"></span></p>
+                <p>Low: <span id="temp-min"></span></p>
+                <p>Humidity: <span id="humidity"></span></p>
+            </div>
+
+        </section>
+
+        <section class="section weather-forecast">
+            <h2>Weather Forecast</h2>
+            <div class="forecast" id="forecast"></div>
+        </section>
+
+        <section class="Business">
+
+        </section>
+
+    </main>
 
     <footer>
         <div class="part1">

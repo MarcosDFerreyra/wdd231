@@ -1,16 +1,6 @@
-const navbutton = document.querySelector('#ham-btn');
-const navlinks = document.querySelector('#nav-bar');
 const gridMember = document.querySelector('#grid')
 const listMember = document.querySelector('#list');
 const membersContainer = document.querySelector("#members");
-
-const currentYear = new Date().getFullYear();
-
-
-navbutton.addEventListener('click', () => {
-    navlinks.classList.toggle('show');
-    navbutton.classList.toggle('show');
-});
 
 gridMember.addEventListener("click", () => {
     membersContainer.classList.add("grid")
@@ -21,9 +11,6 @@ listMember.addEventListener("click", () => {
     membersContainer.classList.add("list")
     membersContainer.classList.remove("grid")
 })
-
-document.getElementById("currentyear").innerHTML = currentYear;
-document.getElementById("lastModified").innerHTML = document.lastModified;
 
 
 async function getMembers() {
@@ -52,13 +39,3 @@ function displayMembers(companies) {
         membersContainer.appendChild(card);
     });
 }
-
-gridMember.addEventListener("click", () => { 
-    membersContainer.classList.add("grid")
-    membersContainer.classList.remove("list")
-})
-
-listMember.addEventListener("click", () => {
-    membersContainer.classList.add("list")
-    membersContainer.classList.remove("grid")
-})

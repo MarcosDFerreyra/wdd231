@@ -104,19 +104,32 @@
     }
 
     /****************** FOOTER *****************/
+
     footer {
         max-width: 100%;
         display: grid;
         padding: 10px 100px 10px 100px;
         grid-template-columns: 1fr 1fr 1fr;
         font-size: 1.1rem;
+        min-height: 250px;
     }
 
     .social a img {
         width: 60px;
         height: auto;
         margin-top: 40px;
-    }
+    }    
 
-    
+/************************** HOME PAGE **************************/
+
+.home-main {
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.hero {
+    grid-column: 1/4;
+}
+.join {
+    grid-column: 1/4;
+    margin: 0 auto;
+}
 }
