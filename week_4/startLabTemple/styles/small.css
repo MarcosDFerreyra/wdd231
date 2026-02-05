@@ -1,0 +1,46 @@
+*{box-sizing: border-box;}
+
+#mydialog{
+    padding: 0;
+    border-radius: 0.6rem;
+}
+
+#mydialog div{
+    display: grid;
+    grid-template-columns: auto 44px;
+    background-color: #ddd;
+    padding: 5px;
+    border-bottom: solid 0.5px #aaa;
+}
+
+#mydialog h2{
+    margin: 0;
+    color: #275690;
+}
+
+#mydialog button{
+    height: auto;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+#mydialog p{
+    padding: 7px;
+    font-size: 1.1rem;
+    color: #375170;
+}
+
+::backdrop{
+    background-color: rgba(225,225,225, 0.75);
+    
+}
+
+
+
+
+
+
+
+body{
+}
