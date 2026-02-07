@@ -118,18 +118,31 @@
         width: 60px;
         height: auto;
         margin-top: 40px;
-    }    
+    }
 
-/************************** HOME PAGE **************************/
+    /************************** HOME PAGE **************************/
 
-.home-main {
-    grid-template-columns: 2fr 1fr 1fr;
-}
-.hero {
-    grid-column: 1/4;
-}
-.join {
-    grid-column: 1/4;
-    margin: 0 auto;
-}
+    .home-main {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+
+    .hero {
+        grid-column: 1/4;
+    }
+
+    .join {
+        grid-column: 1/4;
+        margin: 0 auto;
+    }
+
+    /************************** JOIN PAGE **************************/
+
+    .join-page {
+        max-width: 100%;
+        grid-template-columns: 700px 1fr;
+    }
+
+    .title {
+        grid-column: 1/3;
+    }
 }
