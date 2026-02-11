@@ -9,7 +9,7 @@ function displayInterest(places) {
 
         card.innerHTML = `
         <figure>
-        <img src="images/${place.image}" alt="${place.name} width="286" height="195"">
+        <img src="images/${place.image}" alt="${place.name} width="286" height="195" loading="lazy" ">
         </figure>
         <h2>${place.name}</h2>
         <address>${place.address}</address>
