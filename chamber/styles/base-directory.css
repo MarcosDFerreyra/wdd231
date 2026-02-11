@@ -454,16 +454,23 @@ main{
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 100%;
     border: 1px solid black;
     margin-bottom: 10px;
     background-color: var(--secondary-background);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    grid-template-areas: 
+    "name"
+    "image"
+    "description"
+    "address"
+    ;
 }
 
 .places h2{
     text-align: center;
     padding: 0 10px;
+    grid-area: name;
 }
 
 .places img{
@@ -472,7 +479,9 @@ main{
     display: block;
     margin: 0 auto;
     border-radius: 0.7rem;
+    grid-area: image;
 }
+
 
 .places address, p{
     padding: 0 20px;
@@ -480,11 +489,20 @@ main{
     font-size: 1.1rem;
 }
 
+.places p{
+    grid-area: description;
+}
+
+.places address{
+    grid-area: address;
+}
+
 .places button{
     max-width: 200px;
     padding: 5px;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     background-color: var(--principal-text);
     color: white;
     border-radius: 0.6rem;

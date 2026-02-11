@@ -51,9 +51,15 @@
     }
 
 
-    #interestPoints {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(335px, 0.5fr));
-        gap: 20px;
+    .places {
+        grid-template-areas:
+            "image name "
+            "image description"
+            "image address"
+        ;
+    }
+
+    .places img:hover {
+        box-shadow: 0 2px 4px rgba(3, 6, 1, 10);
     }
 }

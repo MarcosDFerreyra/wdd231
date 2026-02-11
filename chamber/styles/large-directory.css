@@ -151,7 +151,7 @@
 
     #interestPoints {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 0.5fr));
+        grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
 }
