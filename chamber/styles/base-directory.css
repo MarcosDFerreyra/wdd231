@@ -186,7 +186,6 @@ footer {
     background-color: rgb(195, 195, 195);
     grid-template-columns: 1fr;
     gap: 20px;
-    font-display: swap;
 }
 
 .social a img {
