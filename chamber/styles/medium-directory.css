@@ -1,0 +1,59 @@
+@media screen and (min-width: 640px) {
+    header {
+        max-width: 100%;
+        grid-template-columns: 44px auto auto;
+        align-items: end;
+    }
+
+    header span {
+        font-size: 1.7rem;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navegation {
+        display: block;
+        max-width: 100%;
+    }
+
+    .navegation ul {
+        display: flex;
+        max-width: 100%;
+        font-size: 1.4rem;
+    }
+
+    .navegation a {
+        color: black;
+        border: none;
+    }
+
+    .navegation a:hover {
+        background-color: rgb(49, 49, 49);
+        color: white;
+    }
+
+
+    footer {
+        max-width: 100%;
+        display: grid;
+        padding: 10px 100px 10px 100px;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 1.1rem;
+        min-height: 250px;
+    }
+
+    .social a img {
+        width: 60px;
+        height: auto;
+        margin-top: 40px;
+    }
+
+
+    #interestPoints {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(335px, 0.5fr));
+        gap: 20px;
+    }
+}

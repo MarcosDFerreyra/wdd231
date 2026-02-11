@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Florencio Varela Chamber of Comerce | Directory | WDD 213</title>
+    <title>Florencio Varela Chamber of Comerce | Discover Page | WDD 213</title>
     <meta name="description" content="WDD 231 - Web Fronted Development - Marcos Ferreyra">
     <meta name="author" content="Marcos Ferreyra">
     <meta property="og:title" content="Florencio Varela Chamber of Comerce">
@@ -14,8 +14,11 @@
     <meta property="og:url" content="https://marcosdferreyra.github.io/wdd231/chamber/directory.html">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base-directory.css">
+    <link rel="stylesheet" href="styles/medium-directory.css">
     <link rel="stylesheet" href="styles/large-directory.css">
     <script src="scripts/principal.js" defer></script>
+    <script type="module" src="scripts/discover.mjs"></script>
+
 
     <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,7 +45,13 @@
         </ul>
     </nav>
     <main>
+        <div class="titulos">
+            <h1>Places of interest</h1>
+            <h2>Enjoy the most exciting places in Florencio Varela </h2>
+            <div id="visitMessage"></div>
+        </div>
 
+        <section id="interestPoints"></section>
     </main>
 
     <footer>

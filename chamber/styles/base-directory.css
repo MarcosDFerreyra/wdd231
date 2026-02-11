@@ -23,7 +23,7 @@ main {
 }
 
 header {
-    max-width: 500px;
+    max-width: 100%;
     display: grid;
     grid-template-columns: 30px auto 44px;
     column-gap: 8px;
@@ -90,6 +90,10 @@ header span {
 
 h2 {
     font-family: var(--pricipal-font);
+}
+
+.directory{
+    background-color: var(--secondary-background);
 }
 
 .grid-list {
@@ -429,4 +433,60 @@ input:required:valid {
 ::backdrop {
     background-color: rgba(225, 225, 225, 0.75);
 
+}
+
+
+/************************** DISCOVER PAGE **************************/
+main{
+    background-color: white;
+}
+
+.titulos{
+    margin: 0 auto;
+    max-width: 100%;
+    font-family: var(--pricipal-font);
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.places{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    max-width: 400px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: var(--secondary-background);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.places h2{
+    text-align: center;
+    padding: 0 10px;
+}
+
+.places img{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0.7rem;
+}
+
+.places address, p{
+    padding: 0 20px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.places button{
+    max-width: 200px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: var(--principal-text);
+    color: white;
+    border-radius: 0.6rem;
+    font-family: var(--pricipal-font);
 }
