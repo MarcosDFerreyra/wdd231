@@ -14,6 +14,28 @@ h3 {
     color: #003366;
 }
 
+.color-box1 p{
+    border: 1 px solid;
+    background-color: #2F2F2F;
+    color: white;
+}
+
+.color-box2 p{
+    background-color: #F4F1DE;
+    color: #000000;
+}
+
+.color-box3 p{
+    background-color: #3A5A40;
+    color: #ffffff;
+
+}
+
+.color-box4 p{
+    background-color: #D4A373;
+    color: #ffffff;
+}
+
 
 img {
     border: 1px solid #ccc;
