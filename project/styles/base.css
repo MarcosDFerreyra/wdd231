@@ -4,18 +4,19 @@
     font-style: normal;
 
     --subtitle-font: "Poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
 
     --general-font:"Roboto",sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
 
-    --verde:#334e38;
+    --verde:#1f2d21;
     --gray:#2F2F2F;
     --beige: #f3f1e8;
     --beige-page: #F4F1DE;
     --dorado: #653a08;
+    --dorado-2:#D4A373;
 }
 
 *{
@@ -30,9 +31,9 @@
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    opacity: 0.3;
+    opacity: 0.25;
     pointer-events: none;
-    z-index: 9999;
+    z-index: 0;
 }
 
 header{
@@ -51,9 +52,9 @@ header{
 }
 
 .titles h1 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin: 0;
-    
+    font-family: var(--title-font);
 }
 .titles h2 {
     font-size: 1.1rem;
@@ -104,6 +105,51 @@ header{
     color: white;
 }
 
+/******************** MAIN ********************/
+
+
+
+.hero{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    margin-bottom: 0;
+    
+}
+
+.introduccion{
+    
+    background-color: var(--verde);
+    color: white;
+    padding: 20px 30px;
+    font-size: 1.2rem;
+    font-family: var(--general-font);
+}
+
+.introduccion h2{
+    color: var(--dorado-2);
+    font-size: 1.5rem;
+    margin: 10px 0;
+    font-family: var(--subtitle-font);
+}
+
+.introduccion button{
+    font-size: 1.3rem;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid var(--dorado-2);
+    border-radius: 0.4rem;
+    background-color: var(--dorado-2);
+    color: var(--verde);
+    font-family: var(--subtitle-font);
+    cursor: pointer;
+}
+
+
+/******************** FOOTER ********************/
+
 footer {
     background-color: var(--verde);
     color: var(--beige);
@@ -115,7 +161,7 @@ footer {
 }
 
 .social a img {
-    margin-top: 10px;
+    margin-top: 20px;
     width: 40px;
     height: 40px;
     aspect-ratio: 1 / 1;
