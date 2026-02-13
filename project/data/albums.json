@@ -1,0 +1,55 @@
+{
+    "albums":[
+        {   
+            "album_name":"Night Visions",
+            "date":"2012",
+            "album_image": "nightVisions.webp",
+            "song1":"Radioactive",
+            "song2": "Demons",
+            "song3": "It's Time"
+        },
+        {
+            "album_name": "Smoke + Mirrors",
+            "date": "2015",
+            "album_image": "smoke.webp",
+            "song1": "I Bet My Life",
+            "song2": "Shots",
+            "song3": "Gold"
+        },{
+            "album_name": "Evolve",
+            "date": "2017",
+            "album_image": "evolve.",
+            "song1": "Believer",
+            "song2": "Thundeer",
+            "song3": "Whatever it Take"
+        },{
+            "album_name": "Origins",
+            "date": "2018",
+            "album_image": "origins.",
+            "song1": "Natural",
+            "song2": "Bad Liar",
+            "song3": "Zero"
+        },{
+            "album_name": "Mercury – Act 1",
+            "date": "2021",
+            "album_image": "mercury1.",
+            "song1": "Enemy",
+            "song2": "Follow you",
+            "song3": "Wrecked"
+        },{
+            "album_name": "Mercury – Act 2",
+            "date": "2022",
+            "album_image": "mercury2.",
+            "song1": "Bones",
+            "song2": "Sharks",
+            "song3": "Symphony"
+        },{
+            "album_name": "Loom",
+            "date": "2024",
+            "album_image": "loom.",
+            "song1": "Eyes Closed",
+            "song2": "Nice to Meet You",
+            "song3": "Wake Up"
+        }
+    ]
+}
