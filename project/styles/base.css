@@ -104,10 +104,6 @@ header{
     color: white;
 }
 
-
-
-
-
 footer {
     background-color: var(--verde);
     color: var(--beige);
@@ -123,4 +119,5 @@ footer {
     width: 40px;
     height: 40px;
     aspect-ratio: 1 / 1;
+    color: var(--beige);
 }
