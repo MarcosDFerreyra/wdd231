@@ -1,12 +1,25 @@
 {
-    "albums":[
-        {   
-            "album_name":"Night Visions",
-            "date":"2012",
+    "albums": [
+        {
+            "album_name": "Night Visions",
+            "date": "2012",
             "album_image": "nightVisions.webp",
-            "song1":"Radioactive",
+            "song1": "Radioactive",
             "song2": "Demons",
-            "song3": "It's Time"
+            "song3": "It's Time",
+            "all_songs": [
+                "Radioactive",
+                "Tiptoe",
+                "It's Time",
+                "Demons",
+                "On Top of the World",
+                "Amsterdam",
+                "Hear Me",
+                "Every Night",
+                "Bleeding Out",
+                "Underdog",
+                "Nothing Left to Say / Rocks"
+            ]
         },
         {
             "album_name": "Smoke + Mirrors",
@@ -14,42 +27,135 @@
             "album_image": "smoke.webp",
             "song1": "I Bet My Life",
             "song2": "Shots",
-            "song3": "Gold"
-        },{
+            "song3": "Gold",
+            "all_songs": [
+                "Shots",
+                "Gold",
+                "Smoke and Mirrors",
+                "I'm So Sorry",
+                "I Bet My Life",
+                "Polaroid",
+                "Friction",
+                "It Comes Back to You",
+                "Dream",
+                "Trouble",
+                "Summer",
+                "Hopeless Opus",
+                "The Fall"
+            ]
+        },
+        {
             "album_name": "Evolve",
             "date": "2017",
-            "album_image": "evolve.",
+            "album_image": "evolve.webp",
             "song1": "Believer",
-            "song2": "Thundeer",
-            "song3": "Whatever it Take"
-        },{
+            "song2": "Thunder",
+            "song3": "Whatever It Takes",
+            "all_songs": [
+                "I Don’t Know Why",
+                "Whatever It Takes",
+                "Believer",
+                "Walking the Wire",
+                "Rise Up",
+                "I’ll Make It Up to You",
+                "Yesterday",
+                "Mouth of the River",
+                "Thunder",
+                "Start Over",
+                "Dancing in the Dark"
+            ]
+        },
+        {
             "album_name": "Origins",
             "date": "2018",
-            "album_image": "origins.",
+            "album_image": "origins.webp",
             "song1": "Natural",
             "song2": "Bad Liar",
-            "song3": "Zero"
-        },{
+            "song3": "Zero",
+            "all_songs": [
+                "Natural",
+                "Boomerang",
+                "Machine",
+                "Cool Out",
+                "Bad Liar",
+                "West Coast",
+                "Zero",
+                "Bullet in a Gun",
+                "Digital",
+                "Only",
+                "Stuck",
+                "Love"
+            ]
+        },
+        {
             "album_name": "Mercury – Act 1",
             "date": "2021",
-            "album_image": "mercury1.",
+            "album_image": "mercury1.webp",
             "song1": "Enemy",
-            "song2": "Follow you",
-            "song3": "Wrecked"
-        },{
+            "song2": "Follow You",
+            "song3": "Wrecked",
+            "all_songs": [
+                "My Life",
+                "Lonely",
+                "Wrecked",
+                "Monday",
+                "#1",
+                "Easy Come Easy Go",
+                "Giants",
+                "It’s Ok",
+                "Dull Knives",
+                "Follow You",
+                "Cutthroat",
+                "No Time for Toxic People",
+                "One Day"
+            ]
+        },
+        {
             "album_name": "Mercury – Act 2",
             "date": "2022",
-            "album_image": "mercury2.",
+            "album_image": "mercury2.webp",
             "song1": "Bones",
             "song2": "Sharks",
-            "song3": "Symphony"
-        },{
+            "song3": "Symphony",
+            "all_songs": [
+                "Bones",
+                "Symphony",
+                "Sharks",
+                "I Don’t Like Myself",
+                "Blur",
+                "Higher Ground",
+                "Crushed",
+                "Take It Easy",
+                "Waves",
+                "I’m Happy",
+                "Ferris Wheel",
+                "Peace of Mind",
+                "Sirens",
+                "Tied",
+                "Younger",
+                "I Wish",
+                "Continual",
+                "They Don’t Know You Like I Do"
+            ]
+        },
+        {
             "album_name": "Loom",
             "date": "2024",
-            "album_image": "loom.",
+            "album_image": "loom.webp",
             "song1": "Eyes Closed",
             "song2": "Nice to Meet You",
-            "song3": "Wake Up"
+            "song3": "Wake Up",
+            "all_songs": [
+                "Wake Up",
+                "Nice to Meet You",
+                "Eyes Closed",
+                "Take Me to the Beach",
+                "In Your Corner",
+                "Gods Don’t Pray",
+                "Don’t Forget Me",
+                "Kid",
+                "Fire in These Hills"
+            ]
         }
     ]
 }

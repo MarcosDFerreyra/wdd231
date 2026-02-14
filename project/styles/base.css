@@ -7,19 +7,19 @@
     font-weight: 400;
     font-style: normal;
 
-    --general-font:"Roboto",sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
+    --general-font: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
 
-    --verde:#1f2d21;
-    --gray:#2F2F2F;
+    --verde: #1f2d21;
+    --gray: #2F2F2F;
     --beige: #f3f1e8;
     --beige-page: #F4F1DE;
     --dorado: #653a08;
-    --dorado-2:#D4A373;
+    --dorado-2: #D4A373;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -36,7 +36,16 @@
     z-index: 0;
 }
 
-header{
+p,
+h2,
+h1,
+img,
+button {
+    position: relative;
+    z-index: 1;
+}
+
+header {
     max-width: 100%;
     padding: 10px 0;
     display: grid;
@@ -47,7 +56,7 @@ header{
     background-color: var(--beige-page);
 }
 
-.titles{
+.titles {
     margin-left: 50px;
 }
 
@@ -56,6 +65,7 @@ header{
     margin: 0;
     font-family: var(--title-font);
 }
+
 .titles h2 {
     font-size: 1.1rem;
     margin-left: 30px;
@@ -108,19 +118,18 @@ header{
 /******************** MAIN ********************/
 
 
-
-.hero{
+.hero {
     display: block;
     position: relative;
     width: 100%;
     height: auto;
     z-index: 1;
     margin-bottom: 0;
-    
+
 }
 
-.introduccion{
-    
+.introduccion {
+
     background-color: var(--verde);
     color: white;
     padding: 20px 30px;
@@ -128,14 +137,14 @@ header{
     font-family: var(--general-font);
 }
 
-.introduccion h2{
+.introduccion h2 {
     color: var(--dorado-2);
     font-size: 1.5rem;
     margin: 10px 0;
     font-family: var(--subtitle-font);
 }
 
-.introduccion button{
+.introduccion button {
     font-size: 1.3rem;
     margin-top: 10px;
     padding: 5px;
@@ -147,6 +156,90 @@ header{
     cursor: pointer;
 }
 
+.album-titles h1{
+    margin: 0 30px;
+    margin-top: 20px;
+    font-family: var(--subtitle-font);
+    font-size: 2rem;
+    color: var(--verde);
+
+}
+
+.album-titles h2{
+    margin: 10px 30px;
+    font-family: var(--subtitle-font);
+    font-size: 1.2rem;
+    color: var(--verde);
+}
+
+.albums {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background: linear-gradient(180deg,
+            white 0%,
+            white 6%,
+            #F4F1DE 6%,
+            #F4F1DE 100%);
+}
+
+.album-card {
+    margin: 0 auto;
+    max-width: 300px;
+    height: auto;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}
+
+.album-card img {
+    width: 100%;
+    height: auto;
+}
+
+.inside-album {
+    padding: 7px;
+}
+
+.inside-album h2 {
+    font-size: 1.6rem;
+}
+
+.inside-album .date {
+    font-size: 1.5rem;
+    border-bottom: 0.1px solid var(--verde);
+    list-style: none;
+    font-family: none;
+    margin: 7px 0;
+}
+
+.inside-album p {
+    display:list-item;
+    list-style-type:circle;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    font-size: 1.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inside-album button{
+    display: block;
+    margin: 0 auto;
+    border-radius: 1rem;
+    margin-top: 10px;
+    width: 200px;
+    font-size: 1.5rem;
+    font-family: var(--subtitle-font);
+    background-color: var(--beige-page);
+    cursor: pointer;
+    border: 1.5px solid black;
+}
+
+.inside-album button:hover{
+    background-color: var(--verde);
+    color: white;
+}
 
 /******************** FOOTER ********************/
 
@@ -156,6 +249,7 @@ footer {
     max-width: 100%;
     min-height: 200px;
     margin: 0;
+    padding-top: 20px;
     text-align: center;
     font-size: 1.2rem;
 }
