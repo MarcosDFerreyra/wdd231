@@ -1,0 +1,77 @@
+@media screen and (min-width: 700px) {
+    :root {
+        --title-font: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+
+        --subtitle-font: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+        --general-font: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+
+        --verde: #1f2d21;
+        --gray: #2F2F2F;
+        --beige: #f3f1e8;
+        --beige-page: #F4F1DE;
+        --dorado: #653a08;
+        --dorado-2: #D4A373;
+    }
+
+    header {
+        max-width: 100%;
+        padding: 30px 0;
+        display: grid;
+        grid-template-columns: 1.2fr auto;
+    }
+
+    .titles {
+        grid-column: 1/2;
+    }
+
+    .titles h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .titles h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    /******************** NAVEGATION ********************/
+    .navegation {
+        margin-right: 40px;
+        grid-column: 2/3;
+        display: block;
+        position: relative;
+        z-index: 1;
+    }
+
+    .navegation ul {
+        display: flex;
+        gap: 15px;
+        list-style: none;
+    }
+
+    .navegation a {
+        font-size: 1.4rem;
+        border: none;
+    }
+
+    .navegation a:hover {
+        color: var(--dorado);
+        background-color: transparent;
+    }
+
+    .albums {
+        padding: 0 60px ;
+        grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
+    }
+}
