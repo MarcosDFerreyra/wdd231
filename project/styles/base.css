@@ -39,6 +39,7 @@
 p,
 h2,
 h1,
+h3,
 img,
 input,
 label {
@@ -69,7 +70,7 @@ header {
 
 .titles h2 {
     font-size: 1.1rem;
-    margin-left: 30px;
+    margin-left: 35px;
     color: var(--dorado);
 }
 
@@ -147,7 +148,7 @@ header {
 
 .introduccion h2 {
     color: var(--dorado-2);
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     margin: 10px 0;
     font-family: var(--subtitle-font);
 }
@@ -172,14 +173,18 @@ header {
     font-family: var(--subtitle-font);
     font-size: 2rem;
     color: var(--verde);
-
 }
 
 .album-titles h2 {
     margin: 10px 30px;
     font-family: var(--subtitle-font);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: var(--verde);
+}
+
+.message{
+    font-size: 1.5rem;
+    margin: 10px 30px ;
 }
 
 .albums {
@@ -196,7 +201,7 @@ header {
 
 .album-card {
     margin: 0 auto;
-    max-width: 300px;
+    max-width: 320px;
 
     height: auto;
     min-height: 400px;
@@ -304,7 +309,7 @@ footer {
     margin: 0;
     padding-top: 20px;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .social a img {
@@ -316,7 +321,7 @@ footer {
 }
 
 
-/*********************** Join Us ***********************/
+/*********************** JOIN US ***********************/
 
 .titleJoin {
     font-family: var(--subtitle-font);
@@ -324,7 +329,7 @@ footer {
 }
 
 .titleJoin h1 {
-    margin: 0;
+    margin: 20px 0 0 0;
     padding: 5px 15px;
     font-size: 1.7rem;
 }
@@ -335,13 +340,14 @@ footer {
 }
 
 form {
-    margin: 20px 0;
+    margin: 20px 10px;
+    max-width: 1030px;
 }
 
 label {
     display: block;
     padding: 10px;
-    font-size: 1.1rem;
+    font-size: 1.rem;
 }
 
 input,
@@ -395,20 +401,20 @@ input:required:valid {
     grid-template-columns: 1fr;
     background: linear-gradient(180deg,
             white 0%,
-            white 22%,
-            #F4F1DE 22%,
+            white 15%,
+            #F4F1DE 15%,
             #F4F1DE 100%);
 }
 
-.joinSection h2 {
-    margin: 15px;
-    font-size: 1.7rem;
+.whyJoin {
+    margin: 25px 15px;
+    font-size: 1.5rem;
     font-family: var(--subtitle-font);
     color: var(--verde);
 }
 
 .joinCard {
-    max-width: 350px;
+    max-width: 400px;
     height: auto;
     margin: 0 auto;
     border: 1px solid black;
@@ -422,8 +428,8 @@ input:required:valid {
 .joinCard img {
     display: block;
     margin: 0 auto;
-    width: 350px;
-    height: 220px;
+    width: 100%;
+    height: 250px;
 }
 
 .joinCard h3 {
@@ -433,4 +439,82 @@ input:required:valid {
 .joinCard p {
     font-size: 1.05rem;
     padding: 0 7px 5px 7px;
+}
+
+/*********************** BIOGRAPHY ***********************/
+
+.biography {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 10px 10px;
+}
+
+.biography h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--verde);
+    font-family: var(--subtitle-font);
+}
+
+.biography h2 {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 1.7rem;
+    padding: 10px 10px 5px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--dorado);
+    color: var(--verde);
+}
+
+.biography h3 {
+    font-size: 1.6rem;
+    padding: 5px 10px 5px;
+    color: var(--verde);
+    display: list-item;
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+.biography p {
+    font-size: 1.4rem;
+    padding: 0 10px;
+    text-indent: 1.6rem;
+    line-height: 1.3;
+    margin-bottom: 0.6rem;
+}
+
+
+
+
+.thanks {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--beige-page);
+}
+
+.titles-thanks {
+    text-align: center;
+}
+
+.titles-thanks h1 {
+    font-size: 1.6rem;
+    margin: 0;
+    font-family: var(--title-font);
+}
+
+.titles-thanks h2 {
+    font-size: 1.1rem;
+    margin-left: 20px;
+    color: var(--dorado);
+}
+
+.thank-you{
+    padding: 0 15px 15px;
+}
+
+.results h2{
+    margin: 20px 0 5px;
+}
+
+.results p{
+    font-size: 1.2rem;
 }

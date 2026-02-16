@@ -76,5 +76,30 @@ function displayAlbums(albums) {
     });
 }
 
+const messageContainer = document.querySelector("#visitMessage");
 
+const lastVisit = localStorage.getItem("lastVisit");
+const now = Date.now();
+
+let message = "";
+
+if (!lastVisit) {
+    message = "Welcome! this is the Home page.";
+} else {
+    const difference = now - Number(lastVisit);
+    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+
+    if (days < 1) {
+        message = "Back so soon! Awesome!";
+    } else if (days === 1) {
+        message = "You last visited 1 day ago.";
+    } else {
+        message = `You last visited ${days} days ago.`;
+    }
+}
+
+messageContainer.textContent = message;
+
+// Actualizamos la fecha de visita
+localStorage.setItem("lastVisit", now);
 

@@ -70,12 +70,95 @@
         background-color: transparent;
     }
 
+
     .albums {
         padding: 0 60px;
-        grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
     }
 
     dialog {
         height: 65%;
     }
+
+    /*********************** Join Us ***********************/
+
+    .titleJoin h1 {
+        font-size: 2.1rem;
+    }
+
+    .titleJoin h2 {
+        font-size: 1.6rem;
+    }
+
+    form {
+        margin-left: 10px;
+    }
+
+    label {
+        font-size: 1.4rem;
+    }
+
+    .form-row {
+        grid-template-columns: 200px 1fr;
+    }
+
+    .whyJoin {
+        margin-bottom: 30px;
+    }
+
+    .joinSection {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
+        padding-bottom: 10px;
+    }
+
+    .joinCard h3 {
+        font-size: 1.5rem;
+    }
+
+    .joinCard p {
+        font-size: 1.3rem;
+    }
+
+    .joinSection {
+        background: linear-gradient(180deg,
+                white 0%,
+                white 40%,
+                #F4F1DE 40%,
+                #F4F1DE 100%);
+    }
+
+    /*********************** BIOGRAPHY ***********************/
+
+    .biography {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .biography h1 {
+        font-size: 2.5rem;
+    }
+
+    .biography h2 {
+        font-size: 2rem;
+    }
+
+    .biography h3 {
+        font-size: 1.9rem;
+    }
+
+    /*********************** THANKS ***********************/
+    .titles-thanks {
+        text-align: center;
+    }
+
+    .titles-thanks h1 {
+        font-size: 2.4rem;
+    }
+
+    .titles-thanks h2 {
+        font-size: 1.9rem;
+        margin-right: 10px;
+    }
+
 }
