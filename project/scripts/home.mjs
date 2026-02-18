@@ -6,11 +6,13 @@ navegador();
 
 
 
-
+/*container where all album cards are inserted.*/
 const albumsContainer = document.querySelector("#albums");
 
+/*fetch the information from the JSON file*/
 async function getAlbums() {
     try {
+        /*makes a request to the local JSON file using fetch()*/
         const response = await fetch("data/albums.json");
 
         if (!response.ok) {

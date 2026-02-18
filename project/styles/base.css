@@ -320,6 +320,14 @@ footer {
     color: var(--beige);
 }
 
+.videoYoutube{
+    color: var(--beige);
+}
+
+.videoYoutube:hover {
+    color: blue;
+}
+
 
 /*********************** JOIN US ***********************/
 
